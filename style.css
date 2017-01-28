@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.chat-section {
+  margin: 10px;
+}
+.chat-section > form {
+  width: 600px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+.input-chat {
+  height: 30px;
+  min-width: 400px;
+  margin: 20px;
+}
+.button-post {
+
+}
+.discussion-section {
+  min-height: 300px;
+  width: 600px;
+  margin: 10px;
+}
+.post-wrapper {
+  width: 600px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px 0;
+}
+
+.chat-post {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 0 20px;
+  line-height: 1.3;
+}
+
+.todo-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+ /****************** To-Do List ******************/
+
+.todo-section {
+ margin: 10px;
+}
+.todo-section > form {
+ width: 600px;
+ background-color: rgb(226, 226, 226);
+ border-radius: 3px;
+ font-family: 'Roboto', sans-serif;
+}
+.input-todo {
+ height: 30px;
+ min-width: 400px;
+ margin: 20px;
+ font-size: 16px;
+}
+.button-create-todo {
+  font-family: 'Roboto', sans-serif;
+}
+.chat-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.todo-list-section {
+  width: 600px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 8px;
+}
+.todo-list-section h1 {
+  margin: 5px 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.list-item-wrapper {
+  width: 570px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+.list-item-wrapper p {
+  margin-left: 5px;
+}
+.list-item-wrapper button {
+  position: absolute;
+  right: 5px;
+}
+.update-list {
+  height: 25px;
+  width: 100px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin: 5px 10px;
+  background-color: rgb(59, 153, 252);
+}

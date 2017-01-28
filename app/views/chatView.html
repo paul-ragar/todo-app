@@ -1,0 +1,12 @@
+<section class="chat-section">
+  <form class="" ng-submit="addChat(newChat); newChat = null" method="post">
+    <input class="input-chat" type="text" ng-model="newChat" placeholder="...">
+    <button class="button-post" type="button" name="button" ng-click="addChat(newChat); newChat = null">POST</button>
+  </form>
+</section>
+<section class="discussion-section">
+  <div ng-repeat="chat in chats track by $index" class="post-wrapper">
+    <p class="chat-post">{{chat}}</p>
+  </div>
+</section>
+<button type="button" class="todo-link" ui-sref="todo" >My To-Do List</button>
